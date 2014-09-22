@@ -29,6 +29,17 @@ p{
 }
 
 img {
-    width: 250px; 
+    width: 350px; 
     height: auto;
+}
+#AboutNav{
+    height: 112px;
+}
+
+#ProjectNav{
+    height: 337px;
+}
+
+#TechnologyNav{
+    height: 399px;
 }
