@@ -31,9 +31,11 @@ p{
 img {
     width: 350px; 
     height: auto;
+}#About{
+    height: 157px;
 }
 #AboutNav{
-    height: 112px;
+    height: 157px;
 }
 
 #ProjectNav{
