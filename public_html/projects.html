@@ -20,18 +20,29 @@
                     and a <a href="technology.html">Technology</a> page.</p>
                     <br><p>Here is a screenshot of my current About Me page and a
                        screenshot of my first About Me page on my first Portfolio
-                       Website.</p>
-                    <p><img src="images/portfolio-v1-screenshot.png">
-                    <img src="images/portfolio-v2-screenshot.png"></p>
-                </div>
+                       Website.</p>       
+                    <div class="jumbotron">
+                      <h1>Portfolio Screenshots</h1>
+                      <p><img src="images/portfolio-v1-screenshot.png">
+                         <img src="images/portfolio-v2-screenshot.png"></p>
+                    </div>
+                </div>        
                 <div id="ProjectNav" class="col-xs-2">
-                    <ul class="nav nav-pills">
-                        <li><a href="index.html">About</a></li>
-                        <li class="active"><a href='projects.html'>Projects</a></li>
-                        <li><a  href='technology.html'>Technology</a></li>
+                <div class="dropdown">
+                <button class="btn btn-warning" type="buttton" id="dropdownMenu1" data-toggle="dropdown">
+                    Menu
+                    <span class="caret"></span>
+                </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
                     </ul>
                 </div>
+                    </div>
+                </div>
         </div>
-         <script src="javascripts/bootstrap.min.js"></script>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -33,15 +33,32 @@ img {
     height: auto;
 }#About{
     height: 157px;
+    text-align: center;
 }
 #AboutNav{
     height: 157px;
 }
 
 #ProjectNav{
-    height: 337px;
+    height: 569px;
 }
 
 #TechnologyNav{
     height: 399px;
+}
+
+.modal-header{
+    background-color: #282828;
+}
+
+.modal-body{
+    background-color: #282828
+}
+
+.modal-footer{
+    background-color: #282828
+}
+
+.jumbotron{
+    background-color: #282828
 }
