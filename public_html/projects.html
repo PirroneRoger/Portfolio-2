@@ -1,5 +1,6 @@
 <html>
     <head>
+        <!--The following code in <head> calls upon the css bootstrap and custom-style files.-->
         <title>Projects</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,54 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
+        <!--This code calls upon the container which is part of bootstrap.-->
         <div class="container">
             <h2>PROJECTS</h2>
         </div>    
+            <!--This code calls upon the container which is part of bootstrap.-->
             <div class="container">
                 <div class="col-xs-10">
-                    <p>This is my second portfolio website. I am using HTML, CSS,
-                       and Bootstrap's grid system. 
-                    <br>This webstie includes an <a href='index.html'>About</a>
-                    page, a <a href="projects.html">Projects</a> page, 
-                    and a <a href="technology.html">Technology</a> page.</p>
-                    <br><p>Here is a screenshot of my current About Me page and a
-                       screenshot of my first About Me page on my first Portfolio
-                       Website.</p>       
+                    <p>This is my second portfolio website. I am using
+                        <a href='http://www.w3schools.com/html/'>HTML</a>,
+                       <a href='http://www.w3schools.com/css/'>CSS</a>,
+                       and the <a href="http://getbootstrap.com/">Bootstrap</a>
+                       grid system. 
+                        <br>This webstie includes an <a href='index.html'>About</a>
+                        page, a <a href="projects.html">Projects</a> page, 
+                        and a <a href="technology.html">Technology</a> page.</p>
+                    <p><br>Here is a screenshot of my current About Me page and a
+                        screenshot of my first About Me page on my first Portfolio
+                    Website.</p>
+                    <!--This code calls upon bootstrap's jumbotron for the portfolio images.-->
                     <div class="jumbotron">
                       <h1>Portfolio Screenshots</h1>
+                      <p><br>My first portfolio website used basic elements of HTML and CSS.</p>
                       <p><img src="images/portfolio-v1-screenshot.png">
-                         <img src="images/portfolio-v2-screenshot.png"></p>
+                      </p>   
+                      <p><br>My second portfolio website uses more advanced and
+                         responsive features. It was built using HTML, CSS, and Bootstrap.
+                      </p>   
+                      <p><img src="images/portfolio-v2-screenshot.png">
+                      </p>
                     </div>
-                </div>        
+                </div>
+                <!--The following code creates the menu and an active link on the About option.-->
                 <div id="ProjectNav" class="col-xs-2">
                 <div class="dropdown">
-                <button class="btn btn-warning" type="buttton" id="dropdownMenu1" data-toggle="dropdown">
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Menu
                     <span class="caret"></span>
-                </button>
+                    </button>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
                         <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
                     </ul>
                 </div>
-                    </div>
                 </div>
-        </div>
-             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-       <script src="js/bootstrap.min.js"></script>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

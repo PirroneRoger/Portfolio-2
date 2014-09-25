@@ -2,14 +2,13 @@ body {
     background-color: black;
     /*--This changes the font for the entire website to Helvetica.*/
     font-family: Helvetica;
+    /*--This makes the font for the entire website yellow.*/
     color: yellow;
 }
 
-nav a{
-    color: yellow;    
-}
 
 div{
+    /*This CSS code in the div sets how our grid system will look, how wide and the color.*/
     border-style: solid;
     border-width: 1px;
     border-color: white;
@@ -29,36 +28,66 @@ p{
 }
 
 img {
+    /*This sets all images width to 350px and the height to auto correct
+    itself to match that width*/
     width: 350px; 
-    height: auto;
-}#About{
+    height: auto;  
+}
+
+#About{
+    /*This corrects the grid system to line up with the other container.*/
     height: 157px;
+    /*This code makes the "About Me" modal be in the center.*/
     text-align: center;
 }
 #AboutNav{
+    /*This corrects the grid system to line up with the other container.*/
     height: 157px;
 }
 
 #ProjectNav{
-    height: 569px;
+    /*This corrects the grid system to line up with the other container.*/
+    height: 929px;
 }
 
 #TechnologyNav{
-    height: 399px;
+    /*This corrects the grid system to line up with the other container.*/
+    height: 679px;
+}
+
+#w3{
+    /*This id selector overrides the above img css code by calling specifically
+    on the w3 image.*/
+    width: 200px; 
+    height: auto;
 }
 
 .modal-header{
+    /*This makes the modal header have an off grey color.*/
     background-color: #282828;
 }
 
 .modal-body{
-    background-color: #282828
+    /*This makes the modal body have an off grey color.*/
+    background-color: #282828;
 }
 
 .modal-footer{
-    background-color: #282828
+    /*This makes the modal footer have an off grey color.*/
+    background-color: #282828;
+}
+
+.modal-dialog{
+    /*This makes the modal dialog have a black color.*/
+    background-color: black;
+}
+
+.modal-content{
+    /*This makes the modal content have an off grey color.*/
+    background-color: #282828;
 }
 
 .jumbotron{
-    background-color: #282828
+    /*This makes the jumbotron have an off grey color.*/
+    background-color: #282828;
 }

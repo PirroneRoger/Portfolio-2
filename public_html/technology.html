@@ -1,5 +1,6 @@
 <html>
     <head>
+        <!--The following code in <head> calls upon the css bootstrap and custom-style files.-->
         <title>Technology</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,58 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body>
+        <!--This code calls upon the container which is part of bootstrap.-->
         <div class="container">
             <h2>TECHNOLOGY</h2>
-        </div>    
+        </div>
+            <!--This code calls upon the container which is part of bootstrap.-->
             <div class="container">
                 <div class="col-xs-10">
+                    <!--This code makes "HTML" link you to a website with basic
+                        and advanced tutorials.-->
                     <h1><a href='http://www.w3schools.com/html/'>HTML</a></h1>
                     <p>HTML stands for "Hyper-Text Markup Language." 
-                    This is the language that Web pages are written in. 
-                    <br>Also known as hypertext documents, Web pages must
-                    conform to the rules of HTML 
-                    in order to be displayed correctly in a Web browser. 
-                    <br>The HTML syntax is based on a list of tags that describe 
-                    the page's format and what is displayed on the Web page.</p>
-                    
+                        This is the language that Web pages are written in. 
+                        <br>Also known as hypertext documents, Web pages must
+                        conform to the rules of HTML 
+                        in order to be displayed correctly in a Web browser. 
+                        <br>The HTML syntax is based on a list of tags that describe 
+                        the page's format and what is displayed on the Web page.</p>
+                    <!--This code makes "CSS" link you to a website with basic
+                        and advanced tutorials.-->
                     <h1><a href='http://www.w3schools.com/css/'>CSS</a></h1>
                     <p>Cascading Style Sheets (CSS) is a style sheet language
                         used for describing the look and formatting of a document
                         written in a markup language.</p>
-                    
+                    <!--This code makes "BOOTSTRAP" link you to their official website.-->
                     <h1><a href="http://getbootstrap.com/">BOOTSTRAP</a></h1>
                     <p>Bootstrap is a free collection of tools for creating
                        websites and web applications. It contains HTML and
                        CSS-based design templates for typography, forms, buttons,
                        navigation and other interface components, as well as
                        optional <a href='Jhttp://www.w3schools.com/js/'>Javascript</a>
+                    <p><br>Here's a website that has very helpful tutorials on creating a website!
+                       <br>Click the picture to learn more.
+                    <p><a href="http://www.w3schools.com/">
+                       <img id='w3' src="images/w3-schools.jpg"></a>
                 </div>
+                <!--The following code creates the menu and an active link on the About option.-->
                 <div id="TechnologyNav" class="col-xs-2">
-                <div class="dropdown">
-                <button class="btn btn-warning" type="buttton" id="dropdownMenu1" data-toggle="dropdown">
+                    <div class="dropdown">
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Menu
                     <span class="caret"></span>
-                </button>
+                    </button>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
                         <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
                     </ul>
                 </div>
-                    </div>
                 </div>
-             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-       <script src="js/bootstrap.min.js"></script>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
