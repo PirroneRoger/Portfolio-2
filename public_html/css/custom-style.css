@@ -50,9 +50,11 @@ img {
     height: 929px;
 }
 
+
 #TechnologyNav{
     /*This corrects the grid system to line up with the other container.*/
-    height: 679px;
+    height: 862px;
+    
 }
 
 #w3{

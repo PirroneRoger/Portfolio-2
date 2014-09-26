@@ -17,12 +17,13 @@
             <div class="container">
                 <div class="col-xs-10">
                     <p>This is my second portfolio website. I am using
-                        <a href='http://www.w3schools.com/html/'>HTML</a>,
-                       <a href='http://www.w3schools.com/css/'>CSS</a>,
-                       and the <a href="http://getbootstrap.com/">Bootstrap</a>
+                        <!--The target=blank code forces the link to open in a new tab.-->
+                        <a href='http://www.w3schools.com/html/' target=_blank>HTML</a>,
+                       <a href='http://www.w3schools.com/css/' target=_blank>CSS</a>,
+                       and the <a href="http://getbootstrap.com/" target=_blank>Bootstrap</a>
                        grid system. 
                         <br>This webstie includes an <a href='index.html'>About</a>
-                        page, a <a href="projects.html">Projects</a> page, 
+                        page, a Projects page (the page you are currently on), 
                         and a <a href="technology.html">Technology</a> page.</p>
                     <p><br>Here is a screenshot of my current About Me page and a
                         screenshot of my first About Me page on my first Portfolio
@@ -43,12 +44,14 @@
                 <!--The following code creates the menu and an active link on the About option.-->
                 <div id="ProjectNav" class="col-xs-2">
                 <div class="dropdown">
+                    <!--The "class='btn btn-warning changes the color of the button to light orange."-->
                     <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Menu
                     <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <!--class active makes the projects button have a blue background indicating that is the page you are currently on.-->
                         <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
                     </ul>
