@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>JQuery Examples Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--This code calls upon the container which is part of bootstrap.-->
+        <div class="container">
+            <h2>JQuery Examples</h2>
+        </div>    
+            <!--This code calls upon the container which is part of bootstrap.-->
+            <div class="container">
+                <div class="col-xs-10">
+                    <div class="intro">
+                        <p>Hey. This background is blue because of JQuery and not CSS.</p>
+                        <p>This is purple because of JQuery. So yay.</p>
+                    </div>
+                </div>
+                <!--The following code creates the menu and an active link on the About option.-->
+                <div class="col-xs-2">
+                <div class="dropdown">
+                    <!--The "class='btn btn-warning changes the color of the button to light orange."-->
+                    <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Menu
+                    <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html">Technology</a></li>
+                        <!--class active makes the projects button have a blue background indicating that is the page you are currently on.-->
+                        <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="jquery.html">JQuery</a></li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+        <!--The scripts allow certain bootstrap features to work properly.-->    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
