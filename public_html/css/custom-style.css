@@ -93,3 +93,13 @@ img {
     /*This makes the jumbotron have an off grey color.*/
     background-color: #282828;
 }
+
+/* unvisited link */
+a:link {
+    color: #e6e6e6;
+}
+
+/* visited link */
+a:visited {
+    color: #e6e6e6;
+}
