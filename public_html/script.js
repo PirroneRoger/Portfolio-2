@@ -7,13 +7,9 @@ $("document").ready(function(){
    
    $('h3').bind('click', mouseClick);
    
-   $('#button1').bind('click', mouseClick);
-   
-   $('#button2').bind('click', mouseClick);
-   
    $('#replaceWHtml').bind('click', replaceWHtml);
    
-   $('#replaceWText').bind('click', replaceWHtml);
+   $('#hidePic').bind('click', hideTheImage);
 });
 
 function mouseOverMe(){
@@ -37,9 +33,9 @@ function replaceWText(){
 }
 
 function replaceWHtml(){
-    $('#button2').html('');
+    $('p').html('');
 }
 
-function replaceWText(){
-    $('#button2').text('');
+function hideTheImage(){
+    $('#face').hide('puff', {}, 2500);
 }
