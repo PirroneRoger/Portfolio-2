@@ -6,8 +6,12 @@ $("document").ready(function(){
    $('#face').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
    
    $('h3').bind('click', mouseClick);
+         
+   $('#replaceWText').bind('click', replaceWText);
+  
+   $('#randPara').bind('click', addAPara);
    
-   $('#replaceWHtml').bind('click', replaceWHtml);
+   $('#removePara').bind('click', removeAPara);
    
    $('#hidePic').bind('click', hideTheImage);
 });
@@ -24,16 +28,17 @@ function mouseClick(){
     $('p').html('YOU BROKE IT!!!!!!!!!!!!!!');
 }
 
-function replaceWHtml(){
-    $('#button1').html('TEST WORKED?!?!?!');
+
+function removeAPara(){
+    $('#randPara p:last').remove();
+}
+
+function addAPara(){
+    $('#randPara').append('<p>Added</p>');
 }
 
 function replaceWText(){
-    $('#button1').text('TEST WORKED?!?!?!');
-}
-
-function replaceWHtml(){
-    $('p').html('');
+    $('#randPara').append('<p>Yay. So exciting.</p>');
 }
 
 function hideTheImage(){
