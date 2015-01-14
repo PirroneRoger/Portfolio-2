@@ -3,7 +3,7 @@ $("document").ready(function(){
    
    $('p:last').css({"background-color": "purple", "color": "white"});
    
-   $('#face').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+   $('img').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
    
    $('h3').bind('click', mouseClick);
          
@@ -15,6 +15,7 @@ $("document").ready(function(){
    
    $('#hidePic').bind('click', hideTheImage);
 });
+
 
 function mouseOverMe(){
     $("#alter").html("Smiley does not like the mouse on his face. STOP IT!!!!");
@@ -42,5 +43,6 @@ function replaceWText(){
 }
 
 function hideTheImage(){
-    $('#face').hide('puff', {}, 2500);
+    console.log('hide image clicked');
+    $('img').hide('explode', {}, 2500);
 }
