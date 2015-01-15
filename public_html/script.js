@@ -5,7 +5,7 @@ $("document").ready(function(){
    
    $('img').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
    
-   $('h3').bind('click', mouseClick);
+   $('h2').bind('click', mouseClick);
          
    $('#replaceWText').bind('click', replaceWText);
   
@@ -14,6 +14,10 @@ $("document").ready(function(){
    $('#removePara').bind('click', removeAPara);
    
    $('#hidePic').bind('click', hideTheImage);
+   
+   $('#superHumans').accordion({header: "h3"});
+   
+   $('#tabs').tabs();
 });
 
 
@@ -43,6 +47,5 @@ function replaceWText(){
 }
 
 function hideTheImage(){
-    console.log('hide image clicked');
     $('img').hide('explode', {}, 2500);
 }

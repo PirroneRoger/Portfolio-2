@@ -13,7 +13,7 @@
     <body>
         <!--This code calls upon the container which is part of bootstrap.-->
         <div class="container">
-            <h3>JQuery Examples</h3>
+            <h2>JQuery Examples</h2>
         </div>    
             <!--This code calls upon the container which is part of bootstrap.-->
             <div class="container">
@@ -26,6 +26,50 @@
                         <button id="replaceWText" type="button" style="color: black">Add Text</button>
                         <button id="removePara" type="button" style="color: black">Delete Text</button>
                         <p id="randPara"></p>
+                        
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                        <div class="front">
+                        <!-- front content -->
+                        front
+                        </div>
+                        <div class="back">
+                        <!-- back content -->
+                        back
+                        </div>
+                        </div>
+                        </div>
+                        
+                        
+                        <div id="superHumans">
+                            <h3>Avengers</h3>
+                            <p>Include but not limited to Iron Man, Captain America, Hulk, Thor. </p>
+                            <h3>X Men</h3>
+                            <p>Include but not limited to Wolverine, Prof. X, Storm, Beast. </p>
+                            <h3>Marvel Villians</h3>
+                            <p>Include but not limited to Ultron, Thanos, Magneto.</p>
+                        </div>
+                        
+               
+                        <div id="tabs">
+                            <ul>
+                                <li><a href="#fragment-1"><span>Jedi</span></a></li>
+                                <li><a href="#fragment-2"><span>Sith</span></a></li>
+                                <li><a href="#fragment-3"><span>Bounty Hunters</span></a></li>
+                            </ul>
+                            
+                            <div id="fragment-1">  
+                                Jedi include but not limited to Yoda, Mace Windu, Obi-Wan, Anakin Skywalker, Ahsoka Tano, Luke Skywalker.
+                            </div>
+                            <div id="fragment-2">     
+                                Sith include but not limited to Sidious, Vader, Maul, Tyranus, Bane, Revan.
+                            </div>
+                            <div id="fragment-3">   
+                                Bounty Hunters include but not limited to Jango Fett, Boba Fett, Cad Bane, IG-88, Bossk.
+                            </div>
+                        </div>
+                        
                         <p>This is purple because of JQuery. So yay.</p>
                     </div>
                 </div>
@@ -48,7 +92,6 @@
                 </div>
                 </div>
         <!--The scripts allow certain bootstrap features to work properly.-->    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
     </body>
