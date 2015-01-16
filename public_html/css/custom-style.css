@@ -121,8 +121,8 @@ a:visited {
 	}
 
 .flip-container, .front, .back {
-	width: 300px;
-	height: 396px;
+	width: auto;
+	height: 200px;
 }
 
 /* flip speed goes here */
@@ -152,4 +152,19 @@ a:visited {
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+}
+/* for the nudging links.*/
+#animateList{
+    cursor: pointer;
+    transition: padding-left 250ms ease-out;
+    /* trans pattern:  property duration timingMethod delay */
+}
+
+#animateList :hover {
+    padding-left: 20px;
+}
+
+
+#jquery {
+    cursor: url('images/stormtrooper.cur'), default;
 }
