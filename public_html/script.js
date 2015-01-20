@@ -1,10 +1,12 @@
+//document ready calls every following function for the document.
 $("document").ready(function(){
+    //This .intro changes the background color to blue without changing CSS.
    $(".intro").css("background-color", "blue");
-   
+   //p last allows you to chnage the anything on the last p without CSS.
    $('p:last').css({"background-color": "purple", "color": "white"});
-   
+   //mouseover is pretty much hovering your mouse over whatever is specified. In this case it's the image.
    $('img').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-   
+   //
    $('h2').bind('click', mouseClick);
          
    $('#replaceWText').bind('click', replaceWText);

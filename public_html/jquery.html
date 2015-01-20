@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     </head>
-    <body id="jqeury">
+    <!--This id is here to allow for the custom cursor.-->
+    <body id="jquery">
         <!--This code calls upon the container which is part of bootstrap.-->
         <div class="container">
             <h2>JQuery Examples</h2>
@@ -22,13 +23,12 @@
                         <p>Hey. This background is blue because of JQuery and not CSS.</p>
                         <p id="alter">Go touch Smiley. He's nice...</p>
                         <img src="images/smiley.png">
-                        <button id="hidePic" type="button" style="color: black">Hide Smiley Face</button>
-                        <button id="replaceWText" type="button" style="color: black">Add Text</button>
-                        <button id="removePara" type="button" style="color: black">Delete Text</button>
+                        <button id="hidePic" type="button">Hide Smiley Face</button>
+                        <button id="replaceWText" type="button">Add Text</button>
+                        <button id="removePara" type="button">Delete Text</button>
                         <p id="randPara"></p>
-                        
-                        
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <!--This flip code is for the flipper.-->
+                        <div class="flip-container">
                         <div class="flipper">
                         <div class="front">
                         <!-- front content -->
@@ -39,15 +39,12 @@
                         is terrible.
                         </div>
                         </div>
-                        </div>
-                        
-                        <h3>LINKS</h3>
-                        
+                        </div>                        
+                        <h3>LINKS</h3>                        
                         <ul id="animateList">
                             <li><a href='https://www.wikipedia.org/' target=_blank>Wikipedia</a></li>
                             <li><a href='https://www.google.com/' target=_blank>Google</a></li>
-                        </ul>
-                        
+                        </ul>                        
                         <div id="superHumans">
                             <h3>Avengers</h3>
                             <p>Include but not limited to Iron Man, Captain America, Hulk, Thor. </p>
@@ -55,16 +52,13 @@
                             <p>Include but not limited to Wolverine, Prof. X, Storm, Beast. </p>
                             <h3>Marvel Villians</h3>
                             <p>Include but not limited to Ultron, Thanos, Magneto.</p>
-                        </div>
-                        
-               
+                        </div>               
                         <div id="tabs">
                             <ul>
                                 <li><a href="#fragment-1"><span>Jedi</span></a></li>
                                 <li><a href="#fragment-2"><span>Sith</span></a></li>
                                 <li><a href="#fragment-3"><span>Bounty Hunters</span></a></li>
-                            </ul>
-                            
+                            </ul>                            
                             <div id="fragment-1">  
                                 Jedi include but not limited to Yoda, Mace Windu, Obi-Wan, Anakin Skywalker, Ahsoka Tano, Luke Skywalker.
                             </div>
@@ -74,13 +68,12 @@
                             <div id="fragment-3">   
                                 Bounty Hunters include but not limited to Jango Fett, Boba Fett, Cad Bane, IG-88, Bossk.
                             </div>
-                        </div>
-                        
+                        </div>                        
                         <p>This is purple because of JQuery. So yay.</p>
                     </div>
                 </div>
-                <!--The following code creates the menu and an active link on the About option.-->
-                <div class="col-xs-2">
+                <!--The following code creates the menu and an active link on the JQuery option.-->
+                <div id="jqueryNav" class="col-xs-2">
                 <div class="dropdown">
                     <!--The "class='btn btn-warning changes the color of the button to light orange."-->
                     <button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown">

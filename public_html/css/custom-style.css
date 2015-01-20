@@ -44,13 +44,13 @@ img {
 
 #About{
     /*This corrects the grid system to line up with the other container.*/
-    height: 157px;
+    height: 223px;
     /*This code makes the "About Me" modal be in the center.*/
     text-align: center;
 }
 #AboutNav{
     /*This corrects the grid system to line up with the other container.*/
-    height: 157px;
+    height: 223px;
 }
 
 #ProjectNav{
@@ -61,7 +61,7 @@ img {
 
 #TechnologyNav{
     /*This corrects the grid system to line up with the other container.*/
-    height: 1040px;
+    height: 1149px;
     
 }
 
@@ -160,11 +160,34 @@ a:visited {
     /* trans pattern:  property duration timingMethod delay */
 }
 
+#hidePic {
+    color: black;
+}
+
+#replaceWText {
+    color: black;
+}
+
+#removePara {
+    color: black;
+}
+
 #animateList :hover {
     padding-left: 20px;
 }
 
 
 #jquery {
-    cursor: url('images/stormtrooper.cur'), default;
+    cursor: url('../images/stormtrooper.png'), default;
+}
+
+
+#jqueryNav{
+    /*This corrects the grid system to line up with the other container.*/
+    height: 1160px;
+    
+}
+
+button:hover {
+  background: blue;
 }
