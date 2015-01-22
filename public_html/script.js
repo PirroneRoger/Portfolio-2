@@ -20,9 +20,9 @@ $("document").ready(function(){
    $('#superHumans').accordion({header: "h3"});
    //this tabs function creates the tabs in the website
    $('#tabs').tabs();
-     
+   //This code is for the fade in feature on the button.
    $("button").mouseover(function(){
-    $("#hidePic").animate({backgroundColor:'blue'},"slow");
+        $("#hidePic").animate({backgroundColor:'blue'},"slow");
   });
 });
 
@@ -54,3 +54,7 @@ function replaceWText(){
 function hideTheImage(){
     $('img').hide('fade', {}, 2500);
 }
+//This function sets up the draggable box.
+$(function(){
+    $('#drag').draggable();
+});
